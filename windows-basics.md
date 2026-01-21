@@ -35,6 +35,16 @@
     
      **Always verify process before killing it**, **Startup tab when slow boot**
 
+     ### Services
+ 
+     -  **RUN** -> `services.msc`
+     - Programs running in the background
+     - Crucial for system and network running properly (no Win Update - no Update, no DHCP Client - no IP, no Print Spooler - no printing etc.)
+
+     **Don't disable services w/o understanding what it does**
+
+
+
 ## Common commands
 
 - ipconfig
