@@ -43,6 +43,26 @@
 
      **Don't disable services w/o understanding what it does**
 
+  ## Windows Registry
+
+  - Database for configuration settings for OS and installed apps
+          HIVES: 
+         - HKLM (HKEY_LOCAL_MACHINE) -> system settings
+         - HKCU (HKEY_CURENT_USER) -> current user settings
+         - HKCR (HKEY_CLASSES_ROOT) -> file associations (fundamental, highest-level class or element from which others inherit or are defined, providing essential structure or settings)
+         - HKU -> all users
+    - Keys & values
+      
+    HKLM  HIVE
+     └── Software  KEY
+         └── Microsoft VALUE
+              └── Windows VALUE
+    
+
+  - Used for apps troubleshooting, user settings reset, malware checks
+  
+  **Always backup before changes**
+  **Malware often -> HKCU\Software\Microsoft\Windows\CurrentVersion\Run**
 
 
 ## Common commands
