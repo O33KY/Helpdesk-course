@@ -47,7 +47,7 @@
 
   - Database for configuration settings for OS and installed apps
     
-          HIVES: 
+    HIVES: 
     - HKLM (HKEY_LOCAL_MACHINE) -> system settings
     - HKCU (HKEY_CURENT_USER) -> current user settings
     - HKCR (HKEY_CLASSES_ROOT) -> file associations (fundamental, highest-level class or element from which others inherit or are defined, providing essential structure or settings)
@@ -56,11 +56,11 @@
       
     - Keys & values
       
- ~~~
-HKLM Hive
- └── Software  Key
-     └── Microsoft Key
-~~~
+   ~~~
+   HKLM Hive
+       └── Software  Key
+           └── Microsoft Value
+   ~~~
 
   - Used for apps troubleshooting, user settings reset, malware checks
   
